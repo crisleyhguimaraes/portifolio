@@ -1,6 +1,4 @@
-Tecnologias rocket
-
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Portifolio desenvolvido com as seguintes tecnologias:
 
 HTML
 CSS
@@ -17,4 +15,4 @@ Envie para o branch original: git push origin <nome_do_projeto> / <local>
 Crie a solicitação de pull.
 Como alternativa, consulte a documentação do GitHub em como criar uma solicitação pull.
 
-Feito com hearts por Crisley Guimarães
+Crisley Guimarães
