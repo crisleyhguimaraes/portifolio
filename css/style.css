@@ -79,8 +79,7 @@ html{
 
 /*  Home   inicio  */
 .home{
-    background-image: url("");
-    background: 200px; 
+    background-image: url(/img/img.png);
     display: flex;
     background-size: cover;
     height: 100vh;
