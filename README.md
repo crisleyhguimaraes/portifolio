@@ -1,10 +1,13 @@
 <h1>Portifolio desenvolvido com as seguintes tecnologias:</h1>
-
+<h2>
 <p>HTML</p>
 <p><p>CSS</p>
 <p>Javascript</p>
+<h2>
 
-
+<br>
+<br>
+<br>
 
 <p>Para contribuir, siga estas etapas:</p>
 <p>  </p>
@@ -15,4 +18,4 @@
 <p>Crie a solicitação de pull.</p>
 <p>Como alternativa, consulte a documentação do GitHub em como criar uma solicitação pull.</p>
 
-<h2>Crisley Guimarães</h2>
+<h3>Crisley Guimarães</h3>
