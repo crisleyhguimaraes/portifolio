@@ -1,18 +1,18 @@
-Portifolio desenvolvido com as seguintes tecnologias:
+<h1>Portifolio desenvolvido com as seguintes tecnologias:<h1>
 
-HTML
-CSS
-Javascript
+<p>HTML</p>
+<p><p>CSS</p>
+<p>Javascript</p>
 
 
 
-Para contribuir, siga estas etapas:
+<p>Para contribuir, siga estas etapas:</p>
+<p>  </p>
+<p>faça um fork do repositório.</p>
+<p><Crie um branch: git checkout -b <nome_branch>.</p>
+<p>Faça suas alterações e confirme-as: git commit -m '<mensagem_commit>'</p>
+<p>Envie para o branch original: git push origin <nome_do_projeto> / <local></p>
+<p>Crie a solicitação de pull.</p>
+<p>Como alternativa, consulte a documentação do GitHub em como criar uma solicitação pull.</p>
 
-faça um fork do repositório.
-Crie um branch: git checkout -b <nome_branch>.
-Faça suas alterações e confirme-as: git commit -m '<mensagem_commit>'
-Envie para o branch original: git push origin <nome_do_projeto> / <local>
-Crie a solicitação de pull.
-Como alternativa, consulte a documentação do GitHub em como criar uma solicitação pull.
-
-Crisley Guimarães
+<h2>Crisley Guimarães</h2>
