@@ -1,4 +1,4 @@
-<h1>Portifolio desenvolvido com as seguintes tecnologias:<h1>
+<h1>Portifolio desenvolvido com as seguintes tecnologias:</h1>
 
 <p>HTML</p>
 <p><p>CSS</p>
