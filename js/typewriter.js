@@ -16,13 +16,13 @@ $(document).ready(function(){
      });
 
      var typed = new Typed(".typing", {
-         strings:["Desenvolvedor", "Técnico em TI", "Freelancer!"],
+         strings:["desenvolvedor", "técnico em TI", "freelancer","nerd!"],
          typeSpeed:100,
          backSpeed:60,
          loop:true
      });
      var typed = new Typed(".typing-2", {
-        strings:["Desenvolvedor", "Técnico em TI", "Freelancer", "apaixonado por tecnologia!"],
+        strings:["Desenvolvedor", "Técnico em TI", "Freelancer"],
         typeSpeed:100,
         backSpeed:60,
         loop:true
