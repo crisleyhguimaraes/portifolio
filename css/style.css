@@ -460,7 +460,7 @@ section .title::after{
 
 /*  sessão Contato  */
 .contact .title::after{
-    content: "que tal um oi?";
+    content: 'que tal um oi?';
 }
 
 .contact .contact-content .column{
