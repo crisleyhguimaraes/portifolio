@@ -7,7 +7,9 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <title>Portfólio | Crisley Guimarães</title>
     
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
 </head>
 <body>
     <div class="scroll-up-btn">
@@ -49,7 +51,7 @@
             <h2 class="title">Sobre</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img class="img-profile" src="https://rollingstone.uol.com.br/media/uploads/sideshow-collectibles-has-a-life-sized-baby-yoda.jpg" alt="">
+                    <img class="img-profile" src="./img/artedigital.jpeg" alt="">
                 </div>
                 <div class="column right">
                     <div class="text">Sou Crisley e sou <span class="typing-2"></span></div>
@@ -161,65 +163,49 @@
         </div>
     </section>
     <!--Sessão contato-->
-    <section class="contact" id="contact">
-        <div class="max-width">
-            <h2 class="title">Contato</h2>
-            <div class="contact-content">
-               <div class="column left">
-                   <div class="text">Que tal conversarmos um pouco ?</div>
-                   <p>😊</p>
-               
-               <div class="icons">
-                   <div class="row">
-                        <ion-icon name="person-outline"></ion-icon>
-                        <div class="info">
-                            <div class="head">Nome</div>
-                            <div class="sub-title">Crisley Guimarães</div>
-                        </div>
-                   </div>
-                   <div class="row">
-                    <ion-icon name="call-outline"></ion-icon>
-                    <div class="info">
-                        <div class="head">telefone</div>
-                        <div class="sub-title">(35) 9 91828301</div>
-                    </div>
-               </div>
-               <div class="row">
-                <ion-icon name="mail-outline"></ion-icon>
-                <div class="info">
-                    <div class="head">Email</div>
-                    <div class="sub-title">crisleyhguimaraes@gmail.com</div>
+    <section class="contact">
+        <div class="container contact__container">
+        <aside class="contact__aside">
+            <div class="aside__image">
+                <img src="./img/contact.svg">
+            </div>
+            <h2>E aí que tal um oi ?</h2>
+            <p>
+                entra em contato comigo, ou mande um email 😁
+            </p>
+            <ul class="contact__details">
+                <li>
+                <i class="uil uil-phone-times"></i>
+                <h5>035 9 9182-8301</h5>
+                </li>
+                <li>
+                <i class="uil uil-envelope"></i>
+                <h5>crisleyhguimaraes@gmail.com</h5>
+                </li>
+                <li>
+                
+            </ul>
+            <ul class="contact__socials">
+                <li> <a href="https://www.linkedin.com/in/crisleyhguimaraes/"><i class="uil uil-linkedin-alt"></i></a> </li>
+                
+                <li> <a href="https://api.whatsapp.com/send?phone=5535991828301&text=oi+Crisley%2c+estou+entrando+em+contato+atrav%c3%a9s+de+seu+portif%c3%b3lio!++"><i class="uil uil-whatsapp"></i></a> </li>
+                
+                <li> <a href="https://www.instagram.com/dicasfrontend/"><i class="uil uil-instagram"></i></a> </li>
+            </ul>
+            </aside>
+
+
+
+
+            <form action="https://formspree.io/f/mbjwvrye" method="POST" class="contact__form">
+                <div class="form__name">
+                    <input type="text" name="First Name" placeholder="Nome" required>
+                    <input type="text" name="Last Name" placeholder="Sobre nome" required>
                 </div>
-           </div>
-               </div>
-            </div><!--column left-->
-            <div class="column rigth">
-                <div class="text">Mensagem</div>
-                <form action="https://formsubmit.co/crisleyhguimaraes@gmail.com" method="post">
-                    <div class="fields">
-                        <div class="field name">
-                            <input type="text" placeholder="Nome" required>
-                        </div>
-                        <div class="field email">
-                            <input type="email" placeholder="Email" required>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <div class="field">
-                            <input type="text" placeholder="Sobrenome" required>
-                        </div>
-                        <div class="field textarea">
-                           <textarea  cols="30" rows="10" placeholder="Escrever...." required></textarea>
-                           <input type="hidden" name="_captcha" value="false" />
-                           <input type="hidden" name="next" value="https://crisleyhguimaraes.github.io/portifolio/" />
-                        </div>
-                        <div class="button">
-                            <button type="submit">Enviar</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            </div>
+                <input type="email" name="Email Address" placeholder="Seu e-mail" required>
+                <textarea name="Message"  rows="7" placeholder="Mensagem" required></textarea>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
         </div>
     </section>
 
@@ -229,6 +215,7 @@
     </footer>
 
 
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
