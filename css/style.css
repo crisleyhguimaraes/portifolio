@@ -64,8 +64,8 @@ html{
 }
 
 .navbar.sticky{
-     background: #282a36;
-     padding: 15px 0;
+    background: #282a36;
+    padding: 24px 0;
 }
 
 .navbar .max-width{
@@ -113,7 +113,7 @@ html{
 
 /*  Home   inicio  */
 .home{
-    /* background-image: url(/img/img.png); */
+   
     display: flex;
     background-size: cover;
     height: 100vh;
@@ -592,7 +592,7 @@ footer span a:hover{
 
 /*  responsivo  */
 @media (max-width: 1300px){
-    .navbar .max-width{
+    .navbar .max-width {
         margin-left: 0;
     }
 }
@@ -605,7 +605,7 @@ footer span a:hover{
 }
 
 @media (max-width: 991px){
-    .navbar .max-width{
+    .navbar .max-width {
         padding: 0 50px;
     }
 }
@@ -642,6 +642,8 @@ footer span a:hover{
         margin: 20px 0;
         font-size: 25px;
     }
+
+   
     .home .home-content .text-2{
         font-size: 70px;
     }
