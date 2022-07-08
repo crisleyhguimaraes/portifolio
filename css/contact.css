@@ -28,11 +28,13 @@
 .contact__aside h2 {
   text-align: left;
   margin-bottom: 1rem;
+  color: #fff;
 }
 
 .contact__aside p {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   margin-bottom: 2rem;
+  color: #fff;
 }
 
 .contact__details li {
@@ -40,6 +42,8 @@
   gap: 1rem;
   align-items: center;
   margin-bottom: 1rem;
+  color: #fff;
+  font-size: 1.2rem;
 }
 
 .contact__socials {
